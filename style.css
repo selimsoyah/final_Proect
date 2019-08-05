@@ -1,0 +1,713 @@
+ *{
+padding:0;
+margin: 0;
+}
+ body{
+    /* background-image: url(https://i.pinimg.com/originals/48/cd/b1/48cdb172635b1a9c16653fe1a38e0263.jpg); */
+background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.26),rgba(60, 71, 60, 0.418),rgba(255, 255, 255, 0.438),rgba(70, 70, 65, 0.295));
+
+}  
+/* @media only screen and (max-with:700px){
+    .navbar-toggler-icon{
+    box-decoration-break: none;
+    }
+} */
+
+.navbar-brand{
+    height: 100px;
+    width: 200px;
+    cursor: pointer;
+  padding-bottom: 10px;
+}
+/* .carousel-item img{
+  height: auto !important;
+  width: 100% !important;
+} */
+.carousel-inner img{
+    width: 100%;
+    height: auto;
+  cursor: pointer;
+}
+/* .header-line{ */
+    /* border-right: 2px solid rgba(177, 173, 173, 0.486);
+    height:95px;
+    width:20px;
+    position: absolute;
+    left: 15%;
+    top: 0%;
+    margin-top: 10px;
+} */
+.nav-item {
+padding-left: 50px;
+}
+.row{
+margin:20px;
+
+}
+.d-block img{
+    width: 50%;
+    height: auto;
+}
+
+ .category-1{
+      /* background-color: rgb(255, 0, 0); */
+      height: 300px;
+      background-image: url(http://blogs.umsl.edu/news/files/2012/11/64RollingStones1.jpg);
+      background-size: cover;
+     
+  }
+.category-1 .details {
+   
+    height:auto;
+    /* width: 430px; */
+    width: 100%;
+     margin-top:10px; 
+    /* margin-bottom:10px; 
+    margin-left:10px;
+    margin-right:10px; */
+    align-items:center;
+    background-color: rgba(6, 54, 13, 0.445);
+    /* border:1px solid   rgba(0, 0, 0, 0.493); */
+    border-radius:10px;
+    transform: scaleY(0);
+    transition: 0.5s;
+}
+.details p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.category-1:hover .details{
+    transform: scale(1);
+    transition: 0.5s;
+}
+.content h1{
+    padding-top:5px;
+    text-align:center;
+    color: rgb(25, 92, 104)
+}
+.button{
+   
+    cursor: pointer;
+    width: 55%;
+    height: 10%;
+    margin: auto;
+    padding-top:5px;
+    
+ 
+  }
+.div .box-line1{
+    width: 0%;
+    height: 6px;
+    transition: 0.5s;
+    margin-right: auto;
+   
+    border-radius: 20px;
+   
+}
+.div:hover .box-line1{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    height: 6px;
+    border-radius: 20px;
+}
+.div .box-upline1{
+    width: 0%;
+    height: 6px;
+    transition: 0.5s;
+    margin-left: auto;
+    
+}
+.div:hover .box-upline1{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    height: 6px;
+    border-radius: 20px;
+}
+.category-2{
+/* background-color:yellow; */
+height: 300px;
+  background-image:url(https://static.boredpanda.com/blog/wp-content/uploads/2016/11/donald-trump-election-caricatures-5824634f342d9__700.jpg);  
+background-size: cover;
+
+
+}
+.category-2 .details-2 {
+   
+       height:auto;
+    /* width: 430px; */
+    width: 100%;
+    margin-top:10px; 
+    /* margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;  */
+    align-items:center;
+    background-color: rgba(6, 54, 13, 0.445);
+    /* border:1px solid   rgba(0, 0, 0, 0.493); */
+    border-radius:10px;
+    transform: scaleY(0);
+    transition: 0.5s;
+}
+.details-2 p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.category-2:hover .details-2{
+    transform: scale(1);
+    transition: 0.5s;
+}
+.content-2 h1{
+    padding-top:5px;
+    text-align:center;
+    color: rgb(25, 92, 104)
+}
+.button{
+   
+    cursor: pointer;
+    width: 55%;
+    height: 10%;
+    margin: auto;
+    padding-top:5px;
+    
+ 
+  }
+.div2 .box-line2{
+    width: 0%;
+    height: 6px;
+    transition: 0.5s;
+    margin-right: auto;
+   padding-top: 5px;
+    border-radius: 20px;
+   
+}
+.div2:hover .box-line2{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    height: 6px;
+    border-radius: 20px;
+}
+.div2 .box-upline2{
+    width: 0%;
+    height: 6px;
+    transition: 0.5s;
+    margin-left: auto;
+    
+}
+.div2:hover .box-upline2{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    height: 6px;
+    border-radius: 20px;
+}
+
+.category-3{
+    background-color: green;
+    height: 300px;
+    background-image:url(https://i.pinimg.com/originals/40/49/c5/4049c50357364854f859b73ed381a8af.gif);
+    background-size:cover;
+    
+}
+.category-3 .details-3 {
+   
+    height:auto;
+    width: 100%;
+   margin-top:10px; 
+     /* margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px; */
+    align-items:center;
+    background-color: rgba(6, 54, 13, 0.445);
+    /* border:1px solid   rgba(0, 0, 0, 0.493); */
+    border-radius:10px;
+    transform: scaleY(0);
+    transition: 0.5s;
+}
+.details-3 p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.category-3:hover .details-3{
+    transform: scale(1);
+    transition: 0.5s;
+}
+.content-3 h1{
+    padding-top:5px;
+    text-align:center;
+    color: rgb(25, 92, 104)
+}
+.button{
+    cursor: pointer;
+    width: 55%;
+    height: 10%;
+    margin: auto;
+    padding-top:5px;
+  }
+.div3 .box-line3{
+    width: 0%;
+    height: 6px;
+    transition: 0.5s;
+    margin-right: auto;
+   
+    border-radius: 20px;
+   
+}
+.div3:hover .box-line3{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    height: 6px;
+    border-radius: 20px;
+}
+.div3 .box-upline3{
+    width: 0%;
+    height: 6px;
+    transition: 0.5s;
+    margin-left: auto;
+    
+}
+.div3:hover .box-upline3{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    height: 6px;
+    border-radius: 20px;
+}
+
+.category-6{
+    background-color: red; 
+    height: 300px;
+   background-image:url(https://revcycleintelligence.com/images/site/article_headers/_normal/2017-12-12-patient-care.png);
+   background-size:cover;
+  
+}
+    .category-6 .details-6 {
+       
+        height:auto;
+        width: 100%;
+        margin-top:10px; 
+        margin-bottom:10px;
+        margin-left:10px;
+        margin-right:10px;
+        align-items:center;
+        background-color: rgba(0, 0, 0, 0.445);
+        /* border:1px solid   rgba(0, 0, 0, 0.493); */
+        border-radius:10px;
+        transform: scaleY(0);
+        transition: 0.5s;
+    }
+    .details-6 p{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    a:link{
+         text-decoration:none;
+         color: rgb(184, 18, 18); 
+    }
+    .category-6:hover .details-6{
+        transform: scale(1);
+        transition: 0.5s;
+    }
+    .content-6 h1{
+        padding-top:5px;
+        text-align:center;
+        color: rgb(25, 92, 104)
+    }
+    .button{
+       
+        cursor: pointer;
+        width: 55%;
+        height: 10%;
+        margin: auto;
+        padding-top:5px;
+        
+     
+      }
+    .div6 .box-line6{
+        width: 0%;
+        height: 6px;
+        transition: 0.5s;
+        margin-right: auto;
+       
+        border-radius: 20px;
+       
+    }
+    .div6:hover .box-line6{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+        height: 6px;
+        border-radius: 20px;
+    }
+    .div6 .box-upline6{
+        width: 0%;
+        height: 6px;
+        transition: 0.5s;
+        margin-left: auto;
+        
+    }
+    .div6:hover .box-upline6{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+        height: 6px;
+        border-radius: 20px;
+    }
+.category-5{
+background-color:yellow;
+height: 300px;
+background-image:url(https://slummysinglemummy.com/wp-content/uploads/2018/04/shutterstock_646806055-800x534.jpg);
+background-size:cover;
+
+}
+.category-5 .details-5 {
+   
+    height:auto;
+    width: 100%;
+    margin-top:10px; 
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.445);
+    /* border:1px solid   rgba(0, 0, 0, 0.493); */
+    border-radius:10px;
+    transform: scaleY(0);
+    transition: 0.5s;
+}
+.details-5 p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+a:link{
+     text-decoration:none;
+     color: rgb(184, 18, 18); 
+}
+.category-5:hover .details-5{
+    transform: scale(1);
+    transition: 0.5s;
+}
+.content-5 h1{
+    padding-top:5px;
+    text-align:center;
+    color: rgb(25, 92, 104)
+}
+.button{
+   
+    cursor: pointer;
+    width: 55%;
+    height: 10%;
+    margin: auto;
+    padding-top:5px;
+    
+ 
+  }
+.div5 .box-line5{
+    width: 0%;
+    height: 6px;
+    transition: 0.5s;
+    margin-right: auto;
+   
+    border-radius: 20px;
+   
+}
+.div5:hover .box-line5{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    height: 6px;
+    border-radius: 20px;
+}
+.div5 .box-upline5{
+    width: 0%;
+    height: 6px;
+    transition: 0.5s;
+    margin-left: auto;
+    
+}
+.div5:hover .box-upline5{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    height: 6px;
+    border-radius: 20px;
+}
+
+.category-4{
+  background-color: green;
+  height: 300px;
+  background-image:url(https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/3/25/0/PB0210-1_Strawberry-Cake_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371589412891.jpeg);
+ background-size:cover;
+}
+.category-4 .details-4 {
+       
+    height:auto;
+    width: 100%;
+    margin-top:10px; 
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.445);
+    /* border:1px solid   rgba(0, 0, 0, 0.493); */
+    border-radius:10px;
+    transform: scaleY(0);
+    transition: 0.5s;
+}
+.details-4 p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+a:link{
+     text-decoration:none;
+     color: rgb(184, 18, 18); 
+}
+.category-4:hover .details-4{
+    transform: scale(1);
+    transition: 0.5s;
+}
+.content-4 h1{
+    padding-top:5px;
+    text-align:center;
+    color: rgb(25, 92, 104)
+}
+.button{
+   
+    cursor: pointer;
+    width: 55%;
+    height: 10%;
+    margin: auto;
+    padding-top:5px;
+    
+ 
+  }
+.div4 .box-line4{
+    width: 0%;
+    height: 6px;
+    transition: 0.5s;
+    margin-right: auto;
+   
+    border-radius: 20px;
+   
+}
+.div4:hover .box-line4{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    height: 6px;
+    border-radius: 20px;
+}
+.div4 .box-upline4{
+    width: 0%;
+    height: 6px;
+    transition: 0.5s;
+    margin-left: auto;
+    
+}
+.div4:hover .box-upline4{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    height: 6px;
+    border-radius: 20px;
+}
+.cat h1{
+    font-family:'Pacifico', cursive!important;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(10, 87, 10);
+    padding:10px;
+}
+.text{
+    /* background-color: red; */
+width: 100%;
+height:auto;
+text-align:left;
+font-family: 'Libre Caslon Text', serif;
+font-size: 20px;
+font-weight: bold;
+background-color: rgba(21, 226, 158, 0.507);
+border-top-left-radius: 25px;
+}
+.About h1{
+    text-align:center;
+    font-family:'Pacifico', cursive!important;
+    color:rgb(10, 87, 10);
+    font-size: 100px;
+}
+.image{
+    /* background-color:green; */
+    width: 100%;
+    height: auto;
+    background-image:url(logo/brain.jpg);
+     background-size:cover;
+}
+.text1{
+    /* background-color: yellow; */
+    height: auto;
+    width: 100%;
+background-color: rgba(193, 207, 66, 0.308);
+text-align:left;
+font-size: 20px;
+font-family: 'Libre Caslon Text', serif;
+font-weight: bold;
+padding-top:30px;
+border-bottom-right-radius: 20px;
+}
+.image1 {
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: auto;
+     background-image:url(https://mcetv.fr/wp-content/uploads/2018/01/1etudiantsur10sesucidemedecinegrand.jpg);
+     background-size:cover;
+      
+}
+
+   
+
+.trump img{
+    height:900px;
+    width:1490px;
+   padding-left: 10px;
+    padding-right:10px;  
+}
+.body{
+    background-color: rgba(214, 141, 91, 0.664);
+}
+.title1{
+    text-align:center;
+    color:rgb(73, 152, 167);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+
+}
+   
+.sec4 form{
+
+    margin: auto;
+    justify-content:space-around;
+    
+    padding: 10px;
+    border-radius: 25px;
+}
+.nav4{
+    
+     display: grid; 
+     place-items: center; 
+     /* border: 5px solid rgba(128, 63, 145, 0.733);  */
+    /* border-radius: 25px; */
+    width: 350px;
+    margin: auto;
+    height: auto;
+    /* box-shadow:2px 5px grey ; */
+   
+}
+.nav4 input{
+    border:none;
+    border:2px solid rgba(87, 197, 155, 0.733);
+    border-radius: 15px;
+    height: 30px;
+    width: 300px;
+    background-color:rgba(80, 221, 14, 0.5);
+    margin: 20px;
+    padding-left:10px;
+}
+.nav4 textarea{
+    border:none;
+    border:2px solid rgba(87, 197, 155, 0.733);
+    border-radius: 15px;
+    height: 75px;
+    width: 300px;
+    background-color: rgba(80, 221, 14, 0.5);
+    margin:20px;
+    padding-left:10px;
+} 
+.nav4 label{
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 146, 90);
+}
+.nav4 ::placeholder{
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button{
+    border: none;
+    border: 2px solid rgb(103, 240, 12);
+    margin-left: 105px;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 3vh;
+    margin-top: 10px;
+
+}
+ #button:hover{
+    background-color: rgba(0, 255, 64, 0.212);
+    color: rgb(255, 255, 255);
+    transform: 0.5s;
+}
+.nav4 fieldset{
+    border:none;
+    border: 3px solid rgb(10, 87, 10);
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 750px;
+    
+}
+.trump p{
+    text-align: left;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.781);
+}
+#feedback{
+    text-align: center;
+    font-family:'Pacifico', cursive!important;
+    font-size: 70px;
+    color: rgb(10, 87, 10);
+}
+
+.body2{
+    background-color: rgb(71, 168, 168);
+
+}
+.title2{
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(35, 216, 156);
+}
+.articles{
+    text-align: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.rondom{
+    text-align:center;
+    font-size:30px;
+font-family: Arial, Helvetica, sans-serif;
+background-color: aquamarine;
+}
+.rondom img{
+    align-content: center;
+    height: auto;
+    width: 50%;
+}
